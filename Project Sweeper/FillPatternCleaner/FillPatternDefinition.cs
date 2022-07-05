@@ -73,7 +73,7 @@ namespace PKHL.ProjectSweeper.FillPatternCleaner
                 if (thePattern == null)
                     return null;
 
-                return UnitFormatUtils.Format(projectUnits, UnitType.UT_Angle, thePattern.GetFillGrid(0).Angle, false, false);
+                return UnitFormatUtils.Format(projectUnits, SpecTypeId.Angle, thePattern.GetFillGrid(0).Angle, false);
             }
         }
 
@@ -86,7 +86,7 @@ namespace PKHL.ProjectSweeper.FillPatternCleaner
                 if (thePattern == null)
                     return null;
 
-                return UnitFormatUtils.Format(projectUnits, UnitType.UT_Length, thePattern.GetFillGrid(0).Offset, false, false);
+                return UnitFormatUtils.Format(projectUnits, SpecTypeId.Length, thePattern.GetFillGrid(0).Offset, false);
             }
         }
 
@@ -99,7 +99,7 @@ namespace PKHL.ProjectSweeper.FillPatternCleaner
                 if (thePattern == null)
                     return null;
 
-                return UnitFormatUtils.Format(projectUnits, UnitType.UT_Length, thePattern.GetFillGrid(1).Offset, false, false);
+                return UnitFormatUtils.Format(projectUnits, SpecTypeId.Length, thePattern.GetFillGrid(1).Offset, false);
             }
         }
 

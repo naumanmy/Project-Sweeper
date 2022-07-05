@@ -3,7 +3,7 @@
   <AddIn Type="Application">
     <Name>Project Sweeper</Name>
     <Assembly>C:\Users\User\Documents\pkh Lineworks\Projects\Project Sweeper 2021\Project Sweeper\bin\x64\Debug\Project Sweeper.dll</Assembly>
-    <AddInId>6f5ba375-300e-4726-9568-46d1954249ff</AddInId>
+    <AddInId>709D79AA-3B89-4DA6-8766-47315120E371</AddInId>
     <FullClassName>PKHL.ProjectSweeper.ProjectSweeper</FullClassName>
     <VendorId>PKHL</VendorId>
     <VendorDescription>pkh Lineworks, www.pkhlineworks.ca</VendorDescription>
